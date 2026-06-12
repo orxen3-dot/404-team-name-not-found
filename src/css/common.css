@@ -15,4 +15,15 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+/* common styles */
+section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+h2 {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
 }
