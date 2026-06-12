@@ -1,18 +1,10 @@
 .faq {
   background-color: #5e8a4d;
-  /* padding-top: 64px;
-  padding-bottom: 64px;
-  margin: 0; */
 }
 .faq-first-block {
   margin-bottom: 16px;
 }
 .faq-general-heading {
-  /* font-family: var(--second-family);
-font-weight: 400;
-font-size: 36px;
-line-height: 120%;
-letter-spacing: -0.01em; */
   color: #ffffff;
   margin-bottom: 8px;
 }
