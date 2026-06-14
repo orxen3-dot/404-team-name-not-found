@@ -34,7 +34,7 @@
   height: 100%;
   width: 100%;
 }
-.header-logo {
+.menu-logo {
   display: block;
   position: absolute;
   top: 6px;
@@ -127,7 +127,7 @@
     background-color: #5e8a4d;
     align-items: flex-end;
   }
-  .header-logo {
+  .menu-logo {
     display: none;
   }
   .menu-close-btn {
