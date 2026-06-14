@@ -1,0 +1,82 @@
+/*mobile*/
+
+.contacts {
+    margin: 0 0;
+    padding: 64px 0;
+    
+    background-color: #E8EEE5 ;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contacts-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contacts-img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.section-subtitle {
+    margin-bottom: 16px;
+}
+
+.section-title {
+    margin-bottom: 24px;
+}
+
+.contacts-box {
+    margin: 32px 0
+}
+
+.contacts-form {
+    display: flex;
+    flex-direction: column;
+    justyfi-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+
+
+}
+
+.form-label {
+    margin-bottom: 8px;
+}
+
+.contacts-form input, .contacts-form textarea {
+    margin-bottom: 24px;
+    width: 100%;
+    height: 40px;
+}
+
+.contacts-form textarea {
+    margin-bottom: 24px;
+}
+
+
+.contacts-form-btn {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 0 0;
+    padding: 0 0;
+   
+}
+
+/*.contacts-img-box {
+    width: 100%;
+
+}*/
