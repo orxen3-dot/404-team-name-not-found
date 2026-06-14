@@ -11,7 +11,7 @@
         <ul class="contacts-add-list">
           <li class="address-list-item">
             <svg class="contacts-address-icon" width="24" height="24">
-              <use href="/img/sprite.svg#"></use>
+              <use href="/img/sprite.svg#icon-icon"></use>
             </svg>
             <a
               class="contacts-address-link"
@@ -22,7 +22,7 @@
           </li>
           <li class="address-list-item">
             <svg class="contacts-address-icon" width="24" height="24">
-              <use href="/img/sprite.svg#"></use>
+              <use href="/img/sprite.svg#icon-phone"></use>
             </svg>
             <a class="contacts-address-link" href="tel:+15553291024">
               +1 (555) 329-1024
@@ -33,28 +33,34 @@
 
       <form class="contacts-form" action="#">
         <label class="form-label" for="name">Name</label>
-        <input
-          type="text"
-          placeholder="Sarah"
-          name="user-name"
-          id="name"
-          required
-          pattern="^[a-zA-Z\s\.]{5,64}$"
-          autocomplete="name"
-          class="form-input-name"
-        />
+        <div class="input-wrapper">
+          <input
+            type="text"
+            placeholder="Sarah"
+            name="user-name"
+            id="name"
+            required
+            pattern="^[a-zA-Z\s\.]{5,64}$"
+            autocomplete="name"
+            class="form-input-name"
+          />
+          <p class="error-message">Name must contain 5-64 letters</p>
+        </div>
 
         <label class="form-label" for="email">Email</label>
-        <input
-          type="email"
-          placeholder="hello@organic.com"
-          name="user-email"
-          id="email"
-          required
-          pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
-          autocomplete="email"
-          class="form-input-email"
-        />
+        <div class="input-wrapper">
+          <input
+            type="email"
+            placeholder="hello@organic.com"
+            name="user-email"
+            id="email"
+            required
+            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+            autocomplete="email"
+            class="form-input-email"
+          />
+          <p class="error-message">Enter a valid email</p>
+        </div>
 
         <label class="form-label" for="message">Message</label>
         <textarea
@@ -71,13 +77,31 @@
     </div>
 
     <div class="contacts-img-box">
-      <img
-        src="/img/contacts-image.jpg"
-        srcset="/img/contacts-image@1X.jpg 1x, /img/contacts-image@2X.jpg 2x"
-        alt="A small, friendly team of people smiling and looking directly at the camera, standing or sitting around a wooden table with organic products like bread, carrots, apples, and spinach casually placed in front of"
-        width="644"
-        height="757"
-      />
+      <picture>
+        <source
+          media="(min-width: 1440px)"
+          srcset="
+            /img/contacts-images/contacts-image-d@1x.jpg 1x,
+            /img/contacts-images/contacts-image-d@2x.jpg 2x
+          "
+        />
+
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            /img/contacts-images/contacts-image-t@1x.jpg 1x,
+            /img/contacts-images/contacts-image-t@2x.jpg 2x
+          "
+        />
+
+        <img
+          src="/img/contacts-images/contacts-image-m@1x.jpg"
+          srcset="/img/contacts-images/contacts-image-m@2x.jpg 2x"
+          alt="A small, friendly team of people smiling and looking directly at the camera"
+          width="343"
+          height="343"
+        />
+      </picture>
     </div>
   </div>
 </section>
