@@ -1,3 +1,4 @@
+*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -15,6 +16,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
 /* common styles */
 section {
   padding-top: 64px;
