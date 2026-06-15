@@ -41,6 +41,7 @@
   }
 
   .btm-link {
+    font-family: 'Public Sans', sans-serif;
     margin-left: auto;
     display: block;
     font-weight: 500;
@@ -101,6 +102,7 @@
     justify-content: flex-end;
   }
   .nav-item-link {
+    font-family: 'Public Sans', sans-serif;
     display: block;
     font-weight: 400;
     font-size: 16px;
