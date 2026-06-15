@@ -2,7 +2,7 @@
   position: fixed;
   height: 100%;
   width: 100%;
-  z-index: 99999;
+  z-index: 99997;
   left: 0;
   top: 0;
   background-color: #5e8a4d;
@@ -20,7 +20,6 @@
 }
 .menu-window {
   position: absolute;
-  /* margin: 0 auto; */
   top: 0;
   left: 50%;
   min-width: 320px;
@@ -72,6 +71,7 @@
 }
 
 .menu-nav-item-link {
+  font-family: 'Public Sans', sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.5;
@@ -80,11 +80,12 @@
 .menu-btm-link {
   display: flex;
   justify-content: center;
+  font-family: 'Public Sans', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #fff;
-  padding: 8px;
+  padding: 7px;
   width: 100%;
   border: 1px solid #1a5901;
   border-radius: 6px;
@@ -121,6 +122,7 @@
   .menu-window {
     right: 0;
     left: auto;
+    min-width: 286px;
     max-width: 286px;
     padding: 60px 32px 60px 32px;
     transform: translateX(0) translateY(0);
