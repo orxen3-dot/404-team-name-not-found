@@ -1,16 +1,17 @@
-.feedbacks-section {
+.feedbacks {
   padding: 64px 0;
   background-color: #eaf7e5;
 }
 
 .feedbacks-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
   margin-bottom: 40px;
   text-align: center;
 }
 
 .feedbacks-title {
-  margin-bottom: 20px;
-
   font-weight: 600;
   font-size: 32px;
   line-height: 1.1;
@@ -27,11 +28,16 @@
 
 .feedbacks-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 343px;
   gap: 16px;
+   margin: 0 auto;
 }
 
 .feedbacks-card {
+  height: 314px;
+  display: flex;
+  flex-direction: column;
   width: 100%;
 
   padding: 20px;
@@ -47,8 +53,13 @@
   margin-bottom: 24px;
 }
 
-.feedbacks-stars-list svg {
+.star-filled {
   fill: #141414;
+}
+
+.star-outline {
+  fill: none;
+  stroke: #141414;
 }
 
 .feedbacks-text {
@@ -63,7 +74,8 @@
 .feedbacks-author {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 16px;
+  margin-top: auto;
 }
 
 .feedbacks-author img {
@@ -79,7 +91,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .feedbacks-section {
+  .feedbacks {
     padding: 80px 0;
   }
 
@@ -97,12 +109,14 @@
   }
 
   .feedbacks-list {
+    flex-direction: row;
+  max-width: 704px;
+  flex-wrap: wrap;
     gap: 24px;
   }
 
   .feedbacks-card {
     width: calc((100% - 24px) / 2);
-    padding: 24px;
   }
 
   .feedbacks-text {
@@ -111,12 +125,18 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .feedbacks-section {
+  .feedbacks{
     padding: 100px 0;
+  }
+ .feedbacks-title-wrapper {
+    max-width: 644px;
   }
 
   .feedbacks-title {
     font-size: 48px;
+  }
+   .feedbacks-list {
+    max-width: 1312px;
   }
 
   .feedbacks-card {
