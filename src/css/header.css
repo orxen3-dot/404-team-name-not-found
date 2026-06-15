@@ -1,0 +1,128 @@
+.header {
+  padding: 6px 0;
+  background-color: #5e8a4d;
+}
+.header .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  display: block;
+}
+.header-logo-icon {
+  display: block;
+  fill: #fff;
+}
+.header-nav-menu {
+  display: none;
+}
+.btm-link {
+  display: none;
+}
+
+.burger-menu-btn {
+  display: block;
+  border: none;
+  background-color: transparent;
+  padding: 14px 0;
+}
+.burger-menu-icon {
+  display: block;
+  fill: #fff;
+}
+@media screen and (min-width: 768px) {
+  .header .container {
+    padding-left: 32px;
+    padding-right: 32px;
+    gap: 16px;
+    justify-content: flex-start;
+  }
+
+  .btm-link {
+    font-family: 'Public Sans', sans-serif;
+    margin-left: auto;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    padding: 3px 23px;
+    border: 1px solid #1a5901;
+    border-radius: 6px;
+    background-color: #1a5901;
+    transition:
+      border-color 250ms ease-in-out,
+      background-color 250ms ease-in-out,
+      color 250ms ease-in-out,
+      box-shadow 250ms ease-in-out,
+      opacity 250ms ease-in-out;
+  }
+  .btm-link:hover,
+  .btm-link:focus {
+    border-color: #fff;
+    background-color: #fff;
+    color: #010400;
+  }
+  .btm-link:active {
+    border-color: #fff;
+    background-color: #fff;
+    box-shadow: inset 2px 7px 27px -4px rgba(0, 0, 0, 0.15);
+    color: #010400;
+  }
+  .btm-link:disabled {
+    border-color: #1a5901;
+    background-color: #1a5901;
+    opacity: 0.2;
+  }
+  .burger-menu-btn {
+    padding: 18px 0;
+  }
+  .burger-menu-icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .header .container {
+    gap: 32px;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  .header-nav-menu {
+    display: block;
+    width: 100%;
+  }
+  .header-nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    justify-content: flex-end;
+  }
+  .nav-item-link {
+    font-family: 'Public Sans', sans-serif;
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    transition: opacity 250ms ease-in-out;
+  }
+  .nav-item-link:hover,
+  .nav-item-link:focus {
+    opacity: 0.5;
+  }
+  .nav-item-link:active {
+    opacity: 0.6;
+  }
+  .nav-item-link:disabled {
+    opacity: 0.2;
+  }
+  .burger-menu-btn {
+    display: none;
+  }
+}
