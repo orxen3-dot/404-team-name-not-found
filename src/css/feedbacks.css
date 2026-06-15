@@ -110,8 +110,8 @@
 
   .feedbacks-list {
     flex-direction: row;
-  max-width: 704px;
-  flex-wrap: wrap;
+    max-width: 704px;
+    flex-wrap: wrap;
     gap: 24px;
   }
 
@@ -137,6 +137,9 @@
   }
    .feedbacks-list {
     max-width: 1312px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
   }
 
   .feedbacks-card {
