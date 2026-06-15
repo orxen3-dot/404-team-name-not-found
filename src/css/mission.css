@@ -51,16 +51,14 @@
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    padding-bottom: 32px;
+     align-items: flex-start;
   }
 
-  .mission-text-block {
-   padding-bottom: 32px;
-  }
 
   .mission-title {
     white-space: pre-line;
     padding-bottom: 0px;
-     width: 340px;
   }
   .mission-title,
   .mission-text {
@@ -68,7 +66,6 @@
   }
 
 }
-
 
 @media screen and (min-width: 1440px) {
  
@@ -85,6 +82,5 @@
 }
   
 }
-
 
 
