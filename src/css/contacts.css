@@ -1,15 +1,9 @@
 
 
-/* position local */ 
+/* position  */ 
 
 .contacts {
-    margin: 0 auto;
-    padding: 64px 0;
-    
-    
-    
-    /* it's global*/
-
+            
     background-color: #E8EEE5 ;
     font-family: 'Public Sans', sans-serif;
     font-style: normal;
@@ -17,9 +11,10 @@
     line-height: 1.5;
     font-size: 16px;
     font-weight: 400;
-  /***************************************************/
-}
+} 
 
+
+/****************************************************/
 
 .contacts .container {
     display: flex;
@@ -110,7 +105,6 @@
     margin-right: 16px;
     width: 24px;
     height: 24px;
-    /*padding: 4px 2px;*/
 }
 
 
