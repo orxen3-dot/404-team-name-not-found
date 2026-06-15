@@ -1,0 +1,90 @@
+.mission {
+    background-color: #5e8a4d;
+}
+
+.mission .container {
+    padding: 64px 16px;
+    
+}
+
+.mission-text-block {
+    padding-bottom: 32px;
+}
+
+.mission-title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    color: #fff;
+    padding-bottom: 24px;
+}
+
+.mission-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+   
+}
+
+.mission-card-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+  .mission-title,
+  .mission-text {
+   text-align: left;
+   text-wrap: balance;
+  }
+  
+
+@media screen and (min-width: 768px) {
+  
+  .mission .container {
+    padding: 64px 32px;
+  }
+
+  .mission-text-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .mission-text-block {
+   padding-bottom: 32px;
+  }
+
+  .mission-title {
+    white-space: pre-line;
+    padding-bottom: 0px;
+     width: 340px;
+  }
+  .mission-title,
+  .mission-text {
+    flex: 1;    /* 50/50 */
+  }
+
+}
+
+
+@media screen and (min-width: 1440px) {
+ 
+ .mission .container {
+    padding: 112px 64px;
+    }
+
+ .mission-text-block {
+    padding-bottom: 80px; /* убираем отступ снизу у p */
+  }
+
+  .mission-title {
+    font-size: 48px;
+}
+  
+}
+
+
+
