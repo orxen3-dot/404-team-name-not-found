@@ -61,7 +61,7 @@
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1440px) {
   .footer .container {
     display: grid;
     grid-template-columns: auto 1fr auto;
