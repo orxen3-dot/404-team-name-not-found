@@ -32,10 +32,12 @@
   display: block;
 }
 
-.mission-title,
+
 .mission-text {
   text-align: left;
-  text-wrap: balance;
+  max-width: 330px;
+  
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -58,6 +60,7 @@
   .mission-title,
   .mission-text {
     flex: 1; /* 50/50 */
+    text-wrap: balance;
   }
 }
 
@@ -73,4 +76,11 @@
   .mission-title {
     font-size: 48px;
   }
+
+.mission-text {
+  text-wrap: stable;
+  min-width: 640px
+
+  
+}
 }
