@@ -1,5 +1,5 @@
 .feedbacks {
-  padding: 64px 0;
+  /* padding: 64px 0; */
   background-color: #eaf7e5;
 }
 
@@ -31,7 +31,7 @@
   flex-direction: column;
   max-width: 343px;
   gap: 16px;
-   margin: 0 auto;
+  margin: 0 auto;
 }
 
 .feedbacks-card {
@@ -92,7 +92,7 @@
 
 @media screen and (min-width: 768px) {
   .feedbacks {
-    padding: 80px 0;
+    /* padding: 80px 0; */
   }
 
   .feedbacks-title-wrapper {
@@ -125,17 +125,17 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .feedbacks{
-    padding: 100px 0;
+  .feedbacks {
+    /* padding: 100px 0; */
   }
- .feedbacks-title-wrapper {
+  .feedbacks-title-wrapper {
     max-width: 644px;
   }
 
   .feedbacks-title {
     font-size: 48px;
   }
-   .feedbacks-list {
+  .feedbacks-list {
     max-width: 1312px;
     flex-direction: row;
     flex-wrap: wrap;

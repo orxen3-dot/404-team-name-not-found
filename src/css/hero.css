@@ -98,7 +98,7 @@
   }
 
   .hero-container {
-    margin-left: 32px;
+    /* margin-left: 32px; */
   }
 
   .hero-title {
@@ -125,8 +125,8 @@
       linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url('../img/hero.jpg/hero-bg-desctop-1x.jpg');
     margin: 0 auto;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 326px;
+    padding-bottom: 326px;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -139,8 +139,8 @@
     }
   }
   .hero-container {
-    padding-top: 209px;
-    padding-bottom: 209px;
+    /* padding-top: 209px;
+    padding-bottom: 209px; */
   }
   .hero-title {
     max-width: 530px;

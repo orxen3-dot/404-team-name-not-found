@@ -1,73 +1,73 @@
 .benefits {
-    padding: 64px 0;
-    background-color: #1a5901;
+  /* padding: 64px 0; */
+  background-color: #1a5901;
 }
 
 .benefits-container {
-    max-width: 375px;
-    padding: 0 16px;
+  max-width: 375px;
+  padding: 0 16px;
 }
 
 .benefits-picture {
-    display: block;
-    margin-bottom: 24px;
+  display: block;
+  margin-bottom: 24px;
 }
 
 .benefits-img {
-    display: block;
-    width: 343px;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  width: 343px;
+  max-width: 100%;
+  height: auto;
 }
 
 .benefits-title {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 
-    font-family: 'Chivo', sans-serif;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 1.2;
-    letter-spacing: -0.01em;
-    color: #ffffff;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: #ffffff;
 }
 
 .benefits-text {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 
-    font-family: 'Public Sans', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.5;
-    color: #ffffff;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #ffffff;
 }
 
 .benefits-list {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .benefits-icon {
-    display: block;
-    margin-bottom: 16px;
-    fill: #ffffff;
+  display: block;
+  margin-bottom: 16px;
+  fill: #ffffff;
 }
 
 .benefits-item-title {
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 
-    font-family: 'Chivo', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.4;
-    letter-spacing: -0.01em;
-    color: #ffffff;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  color: #ffffff;
 }
 
 .benefits-item-text {
-    font-family: 'Public Sans', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #ffffff;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
 }
