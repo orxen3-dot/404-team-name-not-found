@@ -53,3 +53,26 @@
   color: #ffffff;
   margin-bottom: 24px;
 }
+@media screen and (min-width: 768px) {
+  .faq-general-text {
+    max-width: 362px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .faq-container {
+    display: flex;
+  }
+  .faq-first-block {
+    width: 421px;
+    margin-right: 24px;
+  }
+  .faq-general-heading {
+    margin-bottom: 24px;
+  }
+  .faq-general-text {
+    width: 362px;
+  }
+  .faq-second-block {
+    max-width: 867px;
+  }
+}

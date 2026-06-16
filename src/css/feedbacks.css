@@ -1,0 +1,148 @@
+.feedbacks {
+  /* padding: 64px 0; */
+  background-color: #eaf7e5;
+}
+
+.feedbacks-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.feedbacks-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.1;
+
+  color: #141414;
+}
+
+.feedbacks-subtitle {
+  font-size: 14px;
+  line-height: 1.5;
+
+  color: #141414;
+}
+
+.feedbacks-list {
+  display: flex;
+  flex-direction: column;
+  max-width: 343px;
+  gap: 16px;
+  margin: 0 auto;
+}
+
+.feedbacks-card {
+  height: 314px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  padding: 20px;
+
+  border: 1px solid #d4e0d1;
+  background-color: transparent;
+}
+
+.feedbacks-stars-list {
+  display: flex;
+  gap: 2px;
+
+  margin-bottom: 24px;
+}
+
+.star-filled {
+  fill: #141414;
+}
+
+.star-outline {
+  fill: none;
+  stroke: #141414;
+}
+
+.feedbacks-text {
+  margin-bottom: 24px;
+
+  font-size: 14px;
+  line-height: 1.5;
+
+  color: #141414;
+}
+
+.feedbacks-author {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: auto;
+}
+
+.feedbacks-author img {
+  border-radius: 50%;
+}
+
+.feedbacks-author-name {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.4;
+
+  color: #141414;
+}
+
+@media screen and (min-width: 768px) {
+  .feedbacks {
+    /* padding: 80px 0; */
+  }
+
+  .feedbacks-title-wrapper {
+    max-width: 610px;
+    margin: 0 auto 52px;
+  }
+
+  .feedbacks-title {
+    font-size: 40px;
+  }
+
+  .feedbacks-subtitle {
+    font-size: 16px;
+  }
+
+  .feedbacks-list {
+    flex-direction: row;
+    max-width: 704px;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .feedbacks-card {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .feedbacks-text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .feedbacks {
+    /* padding: 100px 0; */
+  }
+  .feedbacks-title-wrapper {
+    max-width: 644px;
+  }
+
+  .feedbacks-title {
+    font-size: 48px;
+  }
+  .feedbacks-list {
+    max-width: 1312px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .feedbacks-card {
+    width: calc((100% - 72px) / 4);
+  }
+}
