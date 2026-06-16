@@ -1,5 +1,5 @@
 .feedbacks {
-  padding: 64px 0;
+  /* padding: 64px 0; */
   background-color: #eaf7e5;
 }
 
@@ -31,7 +31,7 @@
   flex-direction: column;
   max-width: 343px;
   gap: 16px;
-   margin: 0 auto;
+  margin: 0 auto;
 }
 
 .feedbacks-card {
@@ -130,7 +130,7 @@
   .feedbacks-title {
     font-size: 48px;
   }
-   .feedbacks-list {
+  .feedbacks-list {
     max-width: 1312px;
     flex-direction: row;
     flex-wrap: wrap;
