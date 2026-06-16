@@ -1,8 +1,13 @@
 .header {
-  padding: 6px 0;
+  position: fixed;
   background-color: #5e8a4d;
+  width: 100%;
+  z-index: 9996;
 }
 .header .container {
+  margin: 0 auto;
+  padding-top: 6px;
+  padding-bottom: 6px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -34,8 +39,8 @@
 }
 @media screen and (min-width: 768px) {
   .header .container {
-    padding-left: 32px;
-    padding-right: 32px;
+    /* padding-left: 32px;
+    padding-right: 32px; */
     gap: 16px;
     justify-content: flex-start;
   }
@@ -87,8 +92,8 @@
 @media screen and (min-width: 1440px) {
   .header .container {
     gap: 32px;
-    padding-left: 64px;
-    padding-right: 64px;
+    /* padding-left: 64px;
+    padding-right: 64px; */
   }
   .header-nav-menu {
     display: block;
