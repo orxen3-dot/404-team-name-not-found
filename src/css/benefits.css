@@ -76,7 +76,7 @@
         max-width: 768px;
         padding: 0 32px;
     }
-    .benefits-picture img {
+    .benefits-img {
         width: 704px;
     }
     .benefits-list {
@@ -98,7 +98,7 @@
         flex-shrink: 0;
         margin-bottom: 0;
     }
-    .benefits-picture img {
+    .benefits-img {
         width: 644px;
     }
     .benefits-content {
