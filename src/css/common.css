@@ -39,4 +39,7 @@ h2 {
     padding-top: 0;
     padding-bottom: 0;
   }
+  h2 {
+    font-size: 48px;
+  }
 }
