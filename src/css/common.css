@@ -47,3 +47,7 @@ h2 {
     font-size: 48px;
   }
 }
+
+:root {
+  --transition: 250ms ease-in-out;
+}
