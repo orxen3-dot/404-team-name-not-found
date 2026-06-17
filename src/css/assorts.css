@@ -1,30 +1,32 @@
 .assorts {
-    padding: 80px 0;
-    background-color: #f7f7f2;
+  /* padding: 80px 0; */
+  background-color: #D1DDCC;
 }
 
 .assorts-label {
-    margin-bottom: 16px;
-    font-size: 14px;
-    font-weight: 600;
-    color: #1f2a24;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #010400;
+  line-height: 1.5;
 }
 
 .assorts-title {
-    max-width: 640px;
-    margin-bottom: 40px;
-    font-size: 48px;
-    line-height: 1.15;
-    color: #1f2a24;
+  margin-bottom: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: #010400;
+  max-width: 344px;
 }
 
 .assorts-list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 40px 24px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .assorts-card {
@@ -97,31 +99,92 @@
     color: #1f2a24;
     cursor: pointer;
     transition: var(--transition);
-    margin-top: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.assorts-img {
+  height: 364px;
+  width: 343px;
+  margin-bottom: 16px;
+  object-fit: cover;
+}
+
+.assorts-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.assorts-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #010400;
+}
+
+.assorts-price {
+  font-size: 20px;
+  font-weight: 600;
+  color: #010400;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.assorts-price span {
+  display: block;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: right;
+  line-height: 1.3;
+}
+
+.assorts-text {
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #010400;
+}
+
+.assorts-btn {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid rgba(1, 4, 0, 0.15);
+  border-radius: 6px;
+  background-color: transparent;
+  color: #010400;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: auto;
+  transition: background-color var(--transition), color var(--transition);
 }
 
 .assorts-btn:hover,
 .assorts-btn:focus {
-    background-color: #2f5d3a;
-    color: #ffffff;
+  background-color: #1A5901;
+  color: #ffffff;
 }
 
-@media screen and (max-width: 1439px) {
-    .assorts-list {
-        grid-template-columns: repeat(2, 1fr);
-    }
+@media screen and (min-width: 768px) {
+  .assorts-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .assorts-img {
+    width: 344px;
+  }
 }
 
-@media screen and (max-width: 767px) {
-    .assorts {
-        padding: 48px 0;
-    }
-
-    .assorts-title {
-        font-size: 32px;
-    }
-
-    .assorts-list {
-        grid-template-columns: 1fr;
-    }
+@media screen and (min-width: 1440px) {
+  .assorts-list {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+  .assorts-img {
+    width: 310px;
+  }
+  .assorts-title {
+    max-width: 768px;
+  }
 }

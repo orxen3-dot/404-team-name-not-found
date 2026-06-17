@@ -1,77 +1,161 @@
 .hero {
-  background-image: url('../img/hero.jpg/hero-bg-mobile-1x.jpg');
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../img/hero.jpg/hero-bg-mobile-1x.jpg');
   background-color: #2b2b2b;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 0 16px;
+  padding-top: 183px;
+  padding-bottom: 183px;
 }
 
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
-    background-image: url('../img/hero.jpg/hero-bg-mobile-2x.jpg');
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('../img/hero.jpg/hero-bg-mobile-2x.jpg');
   }
 }
 
-.hero title {
-  font-family: var(--second-family);
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.hero-title,
+.hero-desc {
+  color: #ffffff;
+}
+
+.hero-title {
+  font-family: 'Public Sans', sans-serif;
   font-weight: 400;
+  font-size: 40px;
   line-height: 1.2;
-  color: var(--color-white);
-  margin-bottom: 16px;
+  letter-spacing: -0.01em;
+  color: var(--color-white, #ffffff);
+  margin-bottom: 8px;
+  max-width: 343px;
 }
 
 .hero-desc {
-  font-family: var(--font-family);
+  font-family: 'Public Sans', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
-  color: var(--color-white);
-  margin-bottom: 32px;
+  color: var(--color-white, #ffffff);
+  margin-bottom: 16px;
+  max-width: 611px;
 }
 
 .hero-btn {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: 16px 32px;
-  font-family: var(--font-family);
+  padding-top: 8px;
+  padding-bottom: 4px;
+  width: 100%;
+  height: 40px;
+  font-family: 'Public Sans', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  color: var(--color-neutral-darkest);
-  background-color: var(--color-white);
+  color: var(--color-neutral-darkest, #111111);
+  background-color: var(--color-white, #ffffff);
+  border: none;
   border-radius: 8px;
-  cursor: pointer;
-  transition:
-    background-color 0.3s ease,
-    color 0.3s ease;
+  transition: var(--transition);
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--color-japanese-laurel);
-  color: var(--color-white);
+  color: var(--color-white, #ffffff);
   outline: none;
 }
 
-@media screen and (min-widtn: 768px) {
+@media screen and (min-width: 768px) {
   .hero {
-    background-image: url('../img/hero.jpg/hero-bg-tablet-1x.jpg');
-    padding-top: 100px;
-    padding-bottom: 100px;
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('../img/hero.jpg/hero-bg-tablet-1x.jpg');
+    padding-top: 233px;
+    padding-bottom: 233px;
   }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
-      background-image: url('../img/hero.jpg/hero-bg-tablet-2x.jpg');
+      background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('../img/hero.jpg/hero-bg-tablet-2x.jpg');
     }
   }
 
+  .hero-container {
+    /* margin-left: 32px; */
+  }
+
   .hero-title {
-    font-size: 48px;
+    max-width: 645px;
+    font-size: 40px;
+    margin-bottom: 8px;
+  }
+
+  .hero-desc {
+    min-width: 500px;
+    margin-bottom: 16px;
+  }
+
+  .hero-btn {
+    width: auto;
+    height: auto;
+    padding: 10px 81.5px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('../img/hero.jpg/hero-bg-desctop-1x.jpg');
+    margin: 0 auto;
+    padding-top: 326px;
+    padding-bottom: 326px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('../img/hero.jpg/hero-bg-desctop-2x.jpg');
+    }
+  }
+  .hero-container {
+    /* padding-top: 209px;
+    padding-bottom: 209px; */
+  }
+  .hero-title {
+    max-width: 530px;
+    font-size: 56px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    margin-bottom: 8px;
+  }
+
+  .hero-desc {
+    margin-bottom: 16px;
+    max-width: 645px;
+  }
+
+  .hero-btn {
+    padding: 6px 54px;
   }
 }
