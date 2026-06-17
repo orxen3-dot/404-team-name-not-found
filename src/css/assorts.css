@@ -83,31 +83,30 @@
     background-color: transparent;
     color: #1f2a24;
     cursor: pointer;
-    transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
-}
+    transition: background-color 0.3s ease, color 0.3s ease;
 
-.assorts-btn:hover,
-.assorts-btn:focus {
-    background-color: #2f5d3a;
-    color: #ffffff;
-}
-
-@media screen and (max-width: 1439px) {
-    .assorts-list {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .assorts {
-        padding: 48px 0;
+    .assorts-btn:hover,
+    .assorts-btn:focus {
+        background-color: #2f5d3a;
+        color: #ffffff;
     }
 
-    .assorts-title {
-        font-size: 32px;
+    @media screen and (max-width: 1439px) {
+        .assorts-list {
+            grid-template-columns: repeat(2, 1fr);
+        }
     }
 
-    .assorts-list {
-        grid-template-columns: 1fr;
+    @media screen and (max-width: 767px) {
+        .assorts {
+            padding: 48px 0;
+        }
+
+        .assorts-title {
+            font-size: 32px;
+        }
+
+        .assorts-list {
+            grid-template-columns: 1fr;
+        }
     }
-}
