@@ -58,11 +58,11 @@
     border-radius: 6px;
     background-color: #1a5901;
     transition:
-      border-color 250ms ease-in-out,
-      background-color 250ms ease-in-out,
-      color 250ms ease-in-out,
-      box-shadow 250ms ease-in-out,
-      opacity 250ms ease-in-out;
+      border-color var(--transition),
+      background-color var(--transition),
+      color var(--transition),
+      box-shadow var(--transition),
+      opacity var(--transition);
   }
   .btm-link:hover,
   .btm-link:focus {
@@ -115,7 +115,7 @@
     color: #fff;
     padding-top: 18px;
     padding-bottom: 18px;
-    transition: opacity 250ms ease-in-out;
+    transition: opacity var(--transition);
   }
   .nav-item-link:hover,
   .nav-item-link:focus {
