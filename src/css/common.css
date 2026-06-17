@@ -7,6 +7,9 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  font-family: 'Public Sans', sans-serif;
+}
 main {
   padding-top: 72px;
   background-color: #5e8a4d;
