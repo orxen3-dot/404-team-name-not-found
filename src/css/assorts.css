@@ -99,7 +99,7 @@
   color: #ffffff;
 }
 
-@media screen and (mmin-width: 768px) {
+@media screen and (min-width: 768px) {
   .assorts-list {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -108,7 +108,7 @@
   }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .assorts-list {
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
