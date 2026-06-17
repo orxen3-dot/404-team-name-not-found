@@ -6,24 +6,24 @@
 .feedbacks-title-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  margin-bottom: 40px;
+  gap: 16px;
+  margin-bottom: 24px;
   text-align: center;
 }
 
 .feedbacks-title {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 1.1;
+  font-weight: 400;
+  line-height: 1.2;
 
-  color: #141414;
+  color: #010400;
 }
 
 .feedbacks-subtitle {
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 400;
   line-height: 1.5;
 
-  color: #141414;
+  color: #010400;
 }
 
 .feedbacks-list {
@@ -95,10 +95,7 @@
   .feedbacks-title-wrapper {
     max-width: 610px;
     margin: 0 auto 52px;
-  }
-
-  .feedbacks-title {
-    font-size: 40px;
+    gap: 24px;
   }
 
   .feedbacks-subtitle {
@@ -121,6 +118,7 @@
   
  .feedbacks-title-wrapper {
     max-width: 644px;
+    margin-bottom: 80px;
   }
 
   .feedbacks-title {
