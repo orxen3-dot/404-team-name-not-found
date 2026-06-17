@@ -76,6 +76,7 @@
 }
 
 .assorts-btn {
+
     width: 100%;
     padding: 14px;
     border: 1px solid #d8d8d8;
@@ -84,29 +85,30 @@
     color: #1f2a24;
     cursor: pointer;
     transition: var(--transition);
+}
 
-    .assorts-btn:hover,
-    .assorts-btn:focus {
-        background-color: #2f5d3a;
-        color: #ffffff;
+.assorts-btn:hover,
+.assorts-btn:focus {
+    background-color: #2f5d3a;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1439px) {
+    .assorts-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .assorts {
+        padding: 48px 0;
     }
 
-    @media screen and (max-width: 1439px) {
-        .assorts-list {
-            grid-template-columns: repeat(2, 1fr);
-        }
+    .assorts-title {
+        font-size: 32px;
     }
 
-    @media screen and (max-width: 767px) {
-        .assorts {
-            padding: 48px 0;
-        }
-
-        .assorts-title {
-            font-size: 32px;
-        }
-
-        .assorts-list {
-            grid-template-columns: 1fr;
-        }
+    .assorts-list {
+        grid-template-columns: 1fr;
     }
+}
