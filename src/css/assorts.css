@@ -45,7 +45,11 @@
     grid-template-columns: minmax(0, 1fr) auto;
     column-gap: 12px;
     align-items: start;
-    margin-bottom: 6px;
+    margin-bottom: 18px;
+}
+
+.assorts-content {
+    flex: 1;
 }
 
 .assorts-name {
@@ -93,6 +97,7 @@
     color: #1f2a24;
     cursor: pointer;
     transition: var(--transition);
+    margin-top: auto;
 }
 
 .assorts-btn:hover,
